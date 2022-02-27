@@ -10,3 +10,4 @@ The main (executable) file is GUI.sce
 for other information about autopilot, channels, and components, see JSBSim manual (especially, chapter 3.1.9):
 http://jsbsim.sourceforge.net/JSBSimReferenceManual.pdf
 
+Application needs Scilab: https://www.scilab.org/
