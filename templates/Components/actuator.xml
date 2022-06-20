@@ -1,0 +1,22 @@
+<actuator name="">
+
+	<input>property</input>
+	
+	<lag>number</lag>
+
+	<rate_limit>number</rate_limit>
+
+	<bias>number</bias>
+
+	<deadband_width>number</deadband_width>
+
+	<hysteresis_width>number</hysteresis_width>
+
+	<clipto optional="Yes">
+		<min>property|number</min>
+		<max>property|number</max>
+	</clipto>
+
+	<output optional="Yes">property</output>
+	
+</actuator>

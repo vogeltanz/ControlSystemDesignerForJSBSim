@@ -1,0 +1,21 @@
+<sensor name="">
+
+	<input>property</input>
+	
+	<lag>number</lag>
+
+	<noise variation="PERCENT|ABSOLUTE"	distribution="UNIFORM|GAUSSIAN">number</noise>
+
+	<quantization name="">
+		<bits>number</bits>
+		<min>number</min>
+		<max>number</max>
+	</quantization>
+
+	<drift_rate>number</drift_rate>
+
+	<delay>number</delay>
+
+	<bias>number</bias>
+	
+</sensor>

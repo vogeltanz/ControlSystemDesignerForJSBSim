@@ -1,0 +1,14 @@
+<washout_filter name="">
+
+	<input>property</input>
+	
+	<c1>number|property</c1>
+
+	<clipto optional="Yes">
+		<min>number|property</min>
+		<max>number|property</max>
+	</clipto>
+	
+	<output optional="Yes">property</output>
+	
+</washout_filter>

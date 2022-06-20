@@ -1,0 +1,14 @@
+<switch name="">
+
+	<default value="property|number"/>
+
+	<test value="property|number" canrepeat="Yes" contentcanrepeat="Yes" canincludetests="Yes">test_functions</test>
+
+	<clipto optional="Yes">
+		<min>number|property</min>
+		<max>number|property</max>
+	</clipto>
+
+	<output optional="Yes" canrepeat="Yes">property</output>
+
+</switch>

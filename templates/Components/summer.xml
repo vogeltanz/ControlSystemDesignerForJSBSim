@@ -1,0 +1,14 @@
+<summer name="">
+
+	<input canrepeat="Yes">property</input>
+	
+	<bias optional="Yes">number</bias>
+	
+	<clipto optional="Yes">
+		<min>number|property</min>
+		<max>number|property</max>
+	</clipto>
+	
+	<output optional="Yes">property</output>
+	
+</summer>

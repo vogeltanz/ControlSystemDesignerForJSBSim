@@ -1,0 +1,21 @@
+<kinematic name="">
+
+	<input>property</input>
+	
+	<traverse contentcanrepeat="Yes">
+		<setting canrepeat="Yes">
+			<position>number</position>
+			<time>number</time>
+		</setting>
+	</traverse>
+
+	<clipto optional="Yes">
+		<min>property|number</min>
+		<max>property|number</max>
+	</clipto>
+	
+	<gain optional="Yes">property|number</gain>
+	
+	<output optional="Yes">property</output>
+	
+</kinematic>

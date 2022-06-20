@@ -1,0 +1,16 @@
+<scheduled_gain name="">
+
+	<input>property</input>
+	
+	<table>tableData</table>
+
+	<gain optional="Yes">property|number</gain>
+
+	<clipto optional="Yes">
+		<min>property|number</min>
+		<max>property|number</max>
+	</clipto>
+
+	<output optional="Yes">property</output>
+	
+</scheduled_gain>

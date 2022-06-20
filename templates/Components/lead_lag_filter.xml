@@ -1,0 +1,17 @@
+<lead_lag_filter name="">
+
+	<input>property</input>
+	
+	<c1>number|property</c1>
+	<c2>number|property</c2>
+	<c3>number|property</c3>
+	<c4>number|property</c4>
+	
+	<clipto optional="Yes">
+		<min>number|property</min>
+		<max>number|property</max>
+	</clipto>
+	
+	<output optional="Yes">property</output>
+	
+</lead_lag_filter>

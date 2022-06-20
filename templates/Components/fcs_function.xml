@@ -1,0 +1,14 @@
+<fcs_function name="">
+
+	<input optional="Yes">property</input>
+	
+	<function>math_functions</function>
+
+	<clipto optional="Yes">
+		<min>property|number</min>
+		<max>property|number</max>
+	</clipto>
+
+	<output optional="Yes">property</output>
+	
+</fcs_function>

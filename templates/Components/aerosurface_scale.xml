@@ -1,0 +1,26 @@
+<aerosurface_scale name="">
+
+	<input>property</input>
+	
+	<zero_centered>true|false</zero_centered>
+	
+	<domain optional="Yes">
+		<min>number</min>
+		<max>number</max>
+	</domain>
+	
+	<range>
+		<min>number</min>
+		<max>number</max>
+	</range>
+	
+	<gain optional="Yes">property|number</gain>
+	
+	<clipto optional="Yes">
+		<min>number|property</min>
+		<max>number|property</max>
+	</clipto>
+	
+	<output optional="Yes">property</output>
+	
+</aerosurface_scale>

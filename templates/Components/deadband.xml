@@ -1,0 +1,14 @@
+<deadband name="">
+
+	<input>property</input>
+	
+	<width>number</width>
+
+	<clipto optional="Yes">
+		<min>property|number</min>
+		<max>property|number</max>
+	</clipto>
+
+	<output optional="Yes">property</output>
+	
+</deadband>

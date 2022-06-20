@@ -1,0 +1,18 @@
+<pid name="">
+
+	<input>property</input>
+	
+	<kp>number|property</kp>
+	<ki>number|property</ki>
+	<kd>number|property</kd>
+	
+	<trigger optional="Yes">property</trigger>
+	
+	<clipto optional="Yes">
+		<min>number|property</min>
+		<max>number|property</max>
+	</clipto>
+
+	<output optional="Yes">property</output>
+	
+</pid>
