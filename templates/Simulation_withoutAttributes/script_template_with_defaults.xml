@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://jsbsim.sf.net/JSBSimScript.xsl"?>
+
+<runscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://jsbsim.sf.net/JSBSimScript.xsd"
+    name="">
+    
+  <description></description>
+  
+  <use aircraft="" initialize=""/>
+  
+  <run start="0" end="" dt="0.00833333">
+  	
+	<event name="SetParameter-weight-on-wheels-means-crash">
+		<description>
+Set weight-on-wheels-means-crash parameter for crash detect.
+If the value is 1, the weight-on-wheels will trigger crash which ends the simulation.
+If the value is 0, the weight-on-wheels will not trigger crash.
+		</description>
+		<condition logic="AND">
+			simulation/sim-time-sec ge 0.0 
+		</condition>
+		<set name="systems/crash-detect/weight-on-wheels-means-crash" value="1"/>
+		<notify>
+			<property>simulation/sim-time-sec</property>
+			<property>systems/crash-detect/impact</property>
+			<property>systems/crash-detect/over-g</property>
+			<property>systems/crash-detect/impact-water</property>
+			<property>systems/crash-detect/weight-on-wheels</property>
+		</notify>
+	</event>
+	
+	<event name="Terminate-If-Crash-Detected">
+		<description>
+End condition - If crash is detected, the simulation will be terminated.
+The Aircraft definition (fdm_config) file has to contain link to crash-detect.xml file; otherwise, it will not work.
+		</description>
+		<condition logic="AND">
+			systems/crash-detect/crashed eq 1
+		</condition>
+		<set name="simulation/terminate" value="1.0"/>
+		<notify>
+			<property>simulation/sim-time-sec</property>
+			<property>systems/crash-detect/impact</property>
+			<property>systems/crash-detect/over-g</property>
+			<property>systems/crash-detect/impact-water</property>
+			<property>systems/crash-detect/weight-on-wheels</property>
+			<property>systems/crash-detect/weight-on-wheels-means-crash</property>
+		</notify>
+	</event>
+	
+  </run>
+  
+</runscript>

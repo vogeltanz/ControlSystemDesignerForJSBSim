@@ -1,0 +1,15 @@
+<output>
+	<rates>ON</rates>
+    <velocities>ON</velocities>
+    <position>ON</position>
+    <atmosphere>ON</atmosphere>
+    <fcs>OFF</fcs>
+    <ground_reactions>OFF</ground_reactions>
+    <propulsion>ON</propulsion>
+    <simulation>OFF</simulation>
+    <massprops>OFF</massprops>
+	<coefficients>OFF</coefficients>
+    <forces>ON</forces>
+    <moments>ON</moments>
+    <aerosurfaces>OFF</aerosurfaces>
+</output>

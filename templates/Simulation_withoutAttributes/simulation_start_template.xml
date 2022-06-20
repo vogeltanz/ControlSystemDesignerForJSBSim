@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simulation_start>
+  
+  <description></description>
+  
+  <script></script>
+  
+  <jsbsim_command_options></jsbsim_command_options>
+  
+  <output_processing>SCILAB_V6</output_processing>
+  
+  <output type="" name="output.csv" rate="30">
+	<rates>ON</rates>
+    <velocities>ON</velocities>
+    <position>ON</position>
+    <atmosphere>ON</atmosphere>
+    <fcs>ON</fcs>
+    <ground_reactions>OFF</ground_reactions>
+    <propulsion>ON</propulsion>
+    <simulation>ON</simulation>
+    <massprops>OFF</massprops>
+	<coefficients>ON</coefficients>
+    <forces>ON</forces>
+    <moments>ON</moments>
+    <aerosurfaces>OFF</aerosurfaces>
+  </output>
+  
+  <flightgear_path>C:\Program Files\FlightGear\bin\Win64\fgfs.exe</flightgear_path>
+  
+  <flightgear_command_options></flightgear_command_options>
+  
+</simulation_start>
