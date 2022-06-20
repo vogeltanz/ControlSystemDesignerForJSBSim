@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<control_design_start>
+  
+  <description></description>
+  
+  <script></script>
+  
+  <autopilot></autopilot>
+  
+  <autopilot_adjustable_component></autopilot_adjustable_component>
+  
+  <output type="CSV" name="output.csv" rate="30">
+    <property></property>
+  </output>
+  
+  <output_analysis>ZIEGLER_NICHOLS-CRITICAL_GAIN</output_analysis>
+  
+  <method_parameters></method_parameters>
+  
+  <jsbsim_command_options></jsbsim_command_options>
+  
+</control_design_start>
