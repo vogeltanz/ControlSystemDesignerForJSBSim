@@ -1,0 +1,16 @@
+<output>
+	<rates>ON|OFF</rates>
+    <velocities>ON|OFF</velocities>
+    <position>ON|OFF</position>
+    <atmosphere>ON|OFF</atmosphere>
+    <fcs>ON|OFF</fcs>
+    <ground_reactions>ON|OFF</ground_reactions>
+    <propulsion>ON|OFF</propulsion>
+    <simulation>ON|OFF</simulation>
+    <massprops>ON|OFF</massprops>
+	<coefficients>ON|OFF</coefficients>
+    <forces>ON|OFF</forces>
+    <moments>ON|OFF</moments>
+    <aerosurfaces>ON|OFF</aerosurfaces>
+    <property canrepeat="Yes">property</property>
+</output>
