@@ -1,0 +1,4 @@
+<autopilot_adjustable_component>
+	<!--example: instead of component_xml_name, there may be pid, or gain, or integrator (or fcs_function if grammatical evolution will be implemented) from autopilot definition file with control design. If there is not pid or gain only, user may select more components for autopilot_adjustable_component element but only as integrator or derivator (i.e. "integrator" or other "pid" xml element)-->
+	<component_xml_name canrepeat="Yes"></component_xml_name>
+</autopilot_adjustable_component>
