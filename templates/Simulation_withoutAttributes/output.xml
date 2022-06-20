@@ -1,0 +1,15 @@
+<output>
+	<rates></rates>
+    <velocities></velocities>
+    <position></position>
+    <atmosphere></atmosphere>
+    <fcs></fcs>
+    <ground_reactions></ground_reactions>
+    <propulsion></propulsion>
+    <simulation></simulation>
+    <massprops></massprops>
+	<coefficients></coefficients>
+    <forces></forces>
+    <moments></moments>
+    <aerosurfaces></aerosurfaces>
+</output>
