@@ -1,0 +1,51 @@
+<method_parameters>
+	
+	<ziegler_nichols-critical_gain>
+		
+		<iteration_maximum>100</iteration_maximum>
+		
+		<gain_initial>0.01</gain_initial>
+		
+		<gain_change_iteration>0.01</gain_change_iteration>
+		
+		<gain_constraint>%inf</gain_constraint>
+		
+		<tolerance_amplitude>0.075</tolerance_amplitude>
+		
+	</ziegler_nichols-critical_gain>
+	
+	<genetic_algorithm>
+		
+		<iteration_maximum>100</iteration_maximum>
+		
+		<output_required>0</output_required>
+		
+		<rise_time_required>20</rise_time_required>
+		
+		<pid_population_size>50</pid_population_size>
+		
+		<pid_generation_initial>[ [0.01, 0, 0] ; [0.05, 0.01, 0] ; [0.10, 0.04, 0.005] ; [0.20, 0.10, 0.02] ; [0.5, 0.2, 0.05] ]</pid_generation_initial>
+		
+		<binary_length_integer_part>10</binary_length_integer_part>
+		
+		<binary_length_fractional_part>20</binary_length_fractional_part>
+		
+		<minimum_Kp_Ki_Kd>[0.000001, 0, 0]</minimum_Kp_Ki_Kd>
+		
+		<maximum_Kp_Ki_Kd>[%inf, %inf, %inf]</maximum_Kp_Ki_Kd>
+		
+		<selection_pairs_mode>FromBestToWorst</selection_pairs_mode>
+		
+		<number_of_children>2</number_of_children>
+		
+		<crossover_number_of_cuts_probability>[0.0, 0.6, 0.28, 0.12]</crossover_number_of_cuts_probability>
+		
+		<mutation_number_of_mutated_bits_probability>[0.900, 0.090, 0.005, 0.005]</mutation_number_of_mutated_bits_probability>
+		
+		<weights__outputerror_risetime_overshoot>[0.2, 0.2, 0.6]</weights__outputerror_risetime_overshoot>
+		
+		<objective_function_value_constraint>0</objective_function_value_constraint>
+		
+	</genetic_algorithm>
+
+</method_parameters>

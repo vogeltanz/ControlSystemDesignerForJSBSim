@@ -1,0 +1,51 @@
+<method_parameters>
+	
+	<ziegler_nichols-critical_gain>
+		
+		<iteration_maximum></iteration_maximum>
+		
+		<gain_initial></gain_initial>
+		
+		<gain_change_iteration></gain_change_iteration>
+		
+		<gain_constraint></gain_constraint>
+		
+		<tolerance_amplitude></tolerance_amplitude>
+		
+	</ziegler_nichols-critical_gain>
+	
+	<genetic_algorithm>
+		
+		<iteration_maximum></iteration_maximum>
+		
+		<output_required></output_required>
+		
+		<rise_time_required></rise_time_required>
+		
+		<pid_population_size></pid_population_size>
+		
+		<pid_generation_initial></pid_generation_initial>
+		
+		<binary_length_integer_part></binary_length_integer_part>
+		
+		<binary_length_fractional_part></binary_length_fractional_part>
+		
+		<minimum_Kp_Ki_Kd></minimum_Kp_Ki_Kd>
+		
+		<maximum_Kp_Ki_Kd></maximum_Kp_Ki_Kd>
+		
+		<selection_pairs_mode></selection_pairs_mode>
+		
+		<number_of_children></number_of_children>
+		
+		<crossover_number_of_cuts_probability></crossover_number_of_cuts_probability>
+		
+		<mutation_number_of_mutated_bits_probability></mutation_number_of_mutated_bits_probability>
+		
+		<weights__outputerror_risetime_overshoot></weights__outputerror_risetime_overshoot>
+		
+		<objective_function_value_constraint></objective_function_value_constraint>
+		
+	</genetic_algorithm>
+
+</method_parameters>
