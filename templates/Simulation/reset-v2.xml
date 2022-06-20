@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<initialize name="reset-v2" version="2">
+  
+  <!--
+  ECEF - The Earth Centered, Earth Fixed frame
+  ECI - The Earth Centered Inertial frame
+  NED - The vehicle NED (North, East, Down) frame (very similar to the local and nav frames in JSBSim)
+  -->
+  <position frame="ECEF">
+    <altitudeAGL unit="M|FT">number</altitudeAGL>
+    <latitude type="geodetic" unit="DEG|RAD">number</latitude>
+    <longitude unit="DEG|RAD">number</longitude>
+  </position>
+  
+  <orientation unit="DEG|RAD" frame="LOCAL|BODY|WIND">
+    <pitch>number</pitch>
+	<roll>number</roll>
+    <yaw>number</yaw>
+  </orientation>
+  
+  <velocity unit="M/SEC|FT/SEC" frame="LOCAL|BODY|WIND">
+    <x>number</x>
+    <y>number</y>
+    <z>number</z>
+  </velocity>
+
+  <attitude_rate unit="DEG/SEC|RAD/SEC" frame="LOCAL|BODY|WIND">
+    <x>number</x>
+    <y>number</y>
+    <z>number</z>
+  </attitude_rate>
+
+  <vt unit="KTS|FT/SEC">number</vt>
+  <elevation unit="M|FT">number</elevation>
+
+</initialize>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<initialize name="reset-v1">
+
+  <ubody unit="M/SEC|FT/SEC">number</ubody>
+  <vbody unit="M/SEC|FT/SEC">number</vbody>
+  <wbody unit="M/SEC|FT/SEC">number</wbody>
+  
+  <longitude unit="DEG|RAD">number</longitude>
+  <latitude unit="DEG|RAD">number</latitude>
+  
+  <alpha unit="DEG|RAD">number</alpha>
+  <beta unit="DEG|RAD">number</beta>
+  <gamma unit="DEG|RAD">number</gamma>
+  
+  <phi unit="DEG|RAD">number</phi>
+  <theta unit="DEG|RAD">number</theta>
+  <psi unit="DEG|RAD">number</psi>
+  
+  <altitude unit="M|FT">number</altitude>
+  
+  <vt unit="KTS|FT/SEC">number</vt>
+  <elevation unit="M|FT">number</elevation>
+  <hwind>number</hwind>
+  
+</initialize>

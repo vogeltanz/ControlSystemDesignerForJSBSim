@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://jsbsim.sf.net/JSBSimScript.xsl"?>
+
+<runscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://jsbsim.sf.net/JSBSimScript.xsd"
+    name="">
+    
+  <description optional="Yes"></description>
+  
+  <use aircraft="path_file" initialize="path_file"/>
+  
+  <run start="number" end="number" dt="number">
+	
+    <property value="number" optional="Yes" canrepeat="Yes"></property>
+	
+    <event canrepeat="Yes">event_definition</event>
+	
+  </run>
+  
+</runscript>

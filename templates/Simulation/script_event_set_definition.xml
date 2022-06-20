@@ -1,0 +1,1 @@
+<set_definition>property = number|property|math_functions [type=value|fg_value|delta|fg_delta ; action=step|fg_step|ramp|fg_ramp|exp|fg_exp ; tc=number]</set_definition>

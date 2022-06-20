@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simulation_start>
+  
+  <description optional="Yes"></description>
+  
+  <script>file_name</script>
+  
+  <jsbsim_command_options contentcanrepeat="Yes">
+	--script=script_path
+	--realtime
+  </jsbsim_command_options>
+  
+  <output_processing time_start="number" time_end="number" number_of_graphs_in_line="number" number_of_graphs_in_window="number">SCILAB_V6|FLIGHTGEAR</output_processing>
+  
+  <output type="CSV|FLIGHTGEAR" name="file_name|localhost" rate="number" port="number" protocol="tcp|udp">
+	<rates>ON|OFF</rates>
+    <velocities>ON|OFF</velocities>
+    <position>ON|OFF</position>
+    <atmosphere>ON|OFF</atmosphere>
+    <fcs>ON|OFF</fcs>
+    <ground_reactions>ON|OFF</ground_reactions>
+    <propulsion>ON|OFF</propulsion>
+    <simulation>ON|OFF</simulation>
+    <massprops>ON|OFF</massprops>
+	<coefficients>ON|OFF</coefficients>
+    <forces>ON|OFF</forces>
+    <moments>ON|OFF</moments>
+    <aerosurfaces>ON|OFF</aerosurfaces>
+    <property canrepeat="Yes">property</property>
+  </output>
+  
+  <flightgear_path optional="Yes">path_file</flightgear_path>
+  
+  <flightgear_command_options optional="Yes" contentcanrepeat="Yes">
+	--native-fdm=socket,in,60,,5500,udp
+	--fdm=external
+  </flightgear_command_options>
+  
+</simulation_start>

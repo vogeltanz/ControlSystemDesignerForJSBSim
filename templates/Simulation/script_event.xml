@@ -1,0 +1,15 @@
+<event name="" persistent="false|true" continuous="false|true">
+	
+	<description optional="Yes"></description>
+	
+	<condition logic="AND|OR" contentcanrepeat="Yes" canincludeconditions="Yes">condition_functions</condition>
+	
+	<delay optional="Yes">number</delay>
+	
+	<set optional="Yes" canrepeat="Yes">set_definition</set>
+	
+	<notify optional="Yes">
+		<property optional="Yes" canrepeat="Yes">property</property>
+	</notify>
+	
+</event>

@@ -1,0 +1,1 @@
+<set name="property" value="number|property" type="value|fg_value|delta|fg_delta" action="step|fg_step|ramp|fg_ramp|exp|fg_exp" tc="number"></set>
