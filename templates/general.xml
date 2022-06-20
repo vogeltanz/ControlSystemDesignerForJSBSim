@@ -1,0 +1,70 @@
+
+
+
+
+<test logic="AND|OR" value="property|number" canrepeat="Yes" contentcanrepeat="Yes" canincludetests="Yes">property conditional property|number</test>
+<!--The set of conditional test operators that can be used is as follows (The conditional operators can also be written in lower case):
+	EQ or == (equal to)
+	NE or != (not equal to)
+	LT or <  (less than)
+	LE or <= (less than or equal to)
+	GT or >  (greater than)
+	GE or >= (greater than or equal to)
+	
+	Note: The standard mathematical operators (i.e. "<=") can cause problems with some XML applications, since the angle brackets have special meaning. It is best to avoid their use.
+-->
+<!--the whole template for main test
+<test logic="AND|OR" value="property|number" canrepeat="Yes" contentcanrepeat="Yes" canincludetests="Yes">
+	property conditional property|number
+	...
+-->
+<!--template for test included in test
+	<test logic="AND|OR" optional="Yes" canrepeat="Yes" contentcanrepeat="Yes" canincludetests="Yes">
+		property conditional property|number
+		…
+	</test>
+	...
+</test>
+-->
+
+
+<table name="Table1D">
+	
+	<independentVar lookup="row">property</independentVar>
+	
+	<tableData contentcanrepeat="Yes">
+		row_key_n value_n
+	</tableData>
+	
+</table>
+
+
+<table name="Table2D">
+	
+	<independentVar lookup="row">property</independentVar>
+	<independentVar lookup="column">property</independentVar>
+	
+	<tableData contentcanrepeat="Yes">
+					column_key_n
+		row_key_n	value_n
+	</tableData>
+	
+</table>
+
+
+<table name="Table3D">
+	
+	<independentVar lookup="row">property</independentVar>
+	<independentVar lookup="column">property</independentVar>
+	<independentVar lookup="table">property</independentVar>
+	
+	<tableData breakpoint="table_key_n" canrepeat="Yes" contentcanrepeat="Yes">
+					column_key_n
+		row_key_n	value_n
+	</tableData>
+	
+</table>
+
+
+
+

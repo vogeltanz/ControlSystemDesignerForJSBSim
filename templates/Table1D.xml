@@ -1,0 +1,9 @@
+<table name="Table1D">
+	
+	<independentVar lookup="row">property</independentVar>
+	
+	<tableData contentcanrepeat="Yes">
+		row_key_n value_n
+	</tableData>
+	
+</table>

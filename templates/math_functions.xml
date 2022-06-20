@@ -1,0 +1,68 @@
+<!--
+http://jsbsim.sourceforge.net/JSBSim/classJSBSim_1_1FGFunction.html
+-->
+
+<!-- '+' -->
+<sum arguments="N"></sum>
+
+<!-- '-' -->
+<difference arguments="N"></difference>
+
+<!-- '*' -->
+<product arguments="N"></product>
+
+<!-- '/' -->
+<quotient arguments="2"></quotient>
+
+<!-- '%' -->
+<mod arguments="2"></mod>
+
+
+<pow arguments="2"></pow>
+
+
+<exp arguments="2"></exp>
+
+
+<abs arguments="N"></abs>
+
+
+<sin arguments="1"></sin>
+
+
+<cos arguments="1"></cos>
+
+
+<tan arguments="1"></tan>
+
+
+<asin arguments="1"></asin>
+
+
+<acos arguments="1"></acos>
+
+
+<atan arguments="1"></atan>
+
+
+<atan2 arguments="2"></atan2>
+
+
+<min arguments="N"></min>
+
+
+<max arguments="N"></max>
+
+
+<avg arguments="N"></avg>
+
+
+<fraction arguments="1"></fraction>
+
+
+<random arguments="0"></random>
+
+
+<integer arguments="1"></integer>
+
+

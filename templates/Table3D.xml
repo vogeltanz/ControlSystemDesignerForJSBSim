@@ -1,0 +1,12 @@
+<table name="Table3D">
+	
+	<independentVar lookup="row">property</independentVar>
+	<independentVar lookup="column">property</independentVar>
+	<independentVar lookup="table">property</independentVar>
+	
+	<tableData breakpoint="table_key_n" canrepeat="Yes" contentcanrepeat="Yes">
+					column_key_n
+		row_key_n	value_n
+	</tableData>
+	
+</table>

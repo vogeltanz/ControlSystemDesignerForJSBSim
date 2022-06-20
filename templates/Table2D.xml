@@ -1,0 +1,11 @@
+<table name="Table2D">
+	
+	<independentVar lookup="row">property</independentVar>
+	<independentVar lookup="column">property</independentVar>
+	
+	<tableData contentcanrepeat="Yes">
+					column_key_n
+		row_key_n	value_n
+	</tableData>
+	
+</table>
