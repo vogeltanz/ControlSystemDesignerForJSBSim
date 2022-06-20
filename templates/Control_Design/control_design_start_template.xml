@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<control_design_start>
+  
+  <description optional="Yes"></description>
+  
+  <script>file_name</script>
+  
+  <autopilot>file_name</autopilot>
+  
+  <autopilot_adjustable_component></autopilot_adjustable_component>
+  
+  <output type="CSV" name="path_file" rate="number">
+    <property>property</property>
+  </output>
+  
+  <output_analysis time_start="number" time_end="number">ZIEGLER_NICHOLS-CRITICAL_GAIN|GENETIC_ALGORITHM</output_analysis>
+  
+  <method_parameters></method_parameters>
+  
+  <jsbsim_command_options contentcanrepeat="Yes">
+	--script=script_path
+	--realtime
+  </jsbsim_command_options>
+  
+</control_design_start>

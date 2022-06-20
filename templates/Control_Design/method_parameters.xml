@@ -1,0 +1,51 @@
+<method_parameters>
+	
+	<ziegler_nichols-critical_gain>
+		
+		<iteration_maximum>number</iteration_maximum>
+		
+		<gain_initial>number</gain_initial>
+		
+		<gain_change_iteration>number</gain_change_iteration>
+		
+		<gain_constraint>number</gain_constraint>
+		
+		<tolerance_amplitude>number</tolerance_amplitude>
+		
+	</ziegler_nichols-critical_gain>
+	
+	<genetic_algorithm>
+		
+		<iteration_maximum>number</iteration_maximum>
+		
+		<output_required>number</output_required>
+		
+		<rise_time_required>number</rise_time_required>
+		
+		<pid_population_size>number</pid_population_size>
+		
+		<pid_generation_initial>matrix_of_pid_numbers</pid_generation_initial>
+		
+		<binary_length_integer_part>number</binary_length_integer_part>
+		
+		<binary_length_fractional_part>number</binary_length_fractional_part>
+		
+		<minimum_Kp_Ki_Kd>array_of_pid_numbers</minimum_Kp_Ki_Kd>
+		
+		<maximum_Kp_Ki_Kd>array_of_pid_numbers</maximum_Kp_Ki_Kd>
+		
+		<selection_pairs_mode>FromBestToWorst|FromBestToWorst_IndividualOnce|BestWithWorst|BestWithWorst_IndividualOnce|Tournament|RouletteWheel|RouletteWheel_StochasticUniversalSampling|Random</selection_pairs_mode>
+		
+		<number_of_children>number</number_of_children>
+		
+		<crossover_number_of_cuts_probability>array_of_probabilities</crossover_number_of_cuts_probability>
+		
+		<mutation_number_of_mutated_bits_probability>array_of_probabilities</mutation_number_of_mutated_bits_probability>
+		
+		<weights__outputerror_risetime_overshoot>array_of_weights</weights__outputerror_risetime_overshoot>
+		
+		<objective_function_value_constraint>number</objective_function_value_constraint>
+		
+	</genetic_algorithm>
+
+</method_parameters>

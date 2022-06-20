@@ -1,0 +1,53 @@
+<ziegler_nichols_rules>
+
+	<classic_pid>
+	  <p>0.6 * critical_gain</p>
+	  <i>0.5 * critical_period</i>
+	  <d>0.125 * critical_period</d>
+	</classic_pid>
+
+	<classic_pi>
+	  <p>0.45 * critical_gain</p>
+	  <i>0.83 * critical_period</i>
+	  <d>0 * critical_period</d>
+	</classic_pi>
+
+	<classic_pd>
+	  <p>0.4 * critical_gain</p>
+	  <i>%inf * critical_period</i>
+	  <d>0.05 * critical_period</d>
+	</classic_pd>
+
+	<classic_p>
+	  <p>0.5 * critical_gain</p>
+	  <i>%inf * critical_period</i>
+	  <d>0 * critical_period</d>
+	</classic_p>
+
+	<pessen_integral_rule>
+	  <p>0.7 * critical_gain</p>
+	  <i>0.4 * critical_period</i>
+	  <d>0.15 * critical_period</d>
+	</pessen_integral_rule>
+
+	<some_overshoot>
+	  <p>0.33 * critical_gain</p>
+	  <i>0.5 * critical_period</i>
+	  <d>0.33 * critical_period</d>
+	</some_overshoot>
+
+	<no_overshoot>
+	  <p>0.2 * critical_gain</p>
+	  <i>0.5 * critical_period</i>
+	  <d>0.33 * critical_period</d>
+	</no_overshoot>
+	
+<!--
+see Module 4 PID Control  Scilab Ninja
+Rule Name	 					Tuning Parameters
+Classic Ziegler-Nichols P		Kp = 0.5 * critical_gain     Ki = 0 * critical_gain / critical_period	 Kd = 0 * critical_gain * critical_period
+Classic Ziegler-Nichols	PI		Kp = 0.4 * critical_gain     Ki = 0.5 * critical_gain / critical_period   Kd = 0 * critical_gain * critical_period
+Classic Ziegler-Nichols	PID		Kp = 0.6 * critical_gain     Ki = 1.2 * critical_gain / critical_period	 Kd = 0.075 * critical_gain * critical_period
+-->
+
+</ziegler_nichols_rules>
